@@ -317,6 +317,7 @@ you should place your code here."
   (global-set-key (kbd "C-x <left>") 'windmove-left)
   (global-set-key (kbd "C-x o") 'next-buffer)
   (global-set-key (kbd "C-c m") 'magit-status)
+  (delete-selection-mode +1)
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
